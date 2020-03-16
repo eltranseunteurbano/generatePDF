@@ -4,13 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node puppeteer.js"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+https://eltranseunteurbano@bitbucket.org/teameq/report_system.git"
+  },
   "author": "",
   "license": "ISC",
   "homepage": "https://bitbucket.org/teameq/report_system#readme",
   "dependencies": {
+    "easy-pdf-merge": "^0.2.2",
     "puppeteer": "^2.1.1"
   }
 }
